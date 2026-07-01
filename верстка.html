@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>вёрстка</title>
+    <link rel="stylesheet" href="./вёрстка style.css" />
+  </head>
+  <body>
+    <aside>
+      <img src="./bg.jpg" class="aside-picture">
+    </aside>
+
+    <main>
+      <form>
+        <section class="registration">
+          <div>
+            <h2 class="title">Get iintoo it today</h2>
+            <p class="sub">
+              There is no charge or obligation upon registration.
+            </p>
+          </div>
+        </section>
+
+        <section class="social-buttons">
+          <div>
+            <button class="facebook-button"><img src="facebook.svg" class="facebook-logo"> Register with Facebook</button>
+            <button class="linkedin-button"><img src="linkedin.svg" class="linkedin-logo"> Register with Linkedin</button>
+          </div>
+        </section>
+        
+
+        <section>
+          <hr />
+            <p class="on-hr">OR</p>
+        </section>
+
+        <section class="input-info">
+          <div>
+            <input type="email" placeholder="Email" class="email-input" required />
+            <input type="tel" placeholder="Phone" class="phone-input" required />
+          </div>
+        </section>
+
+        <section class="inverstor-type">
+          <div>
+            <h2 class="title">What type of investor are you?</h2>
+            <p class="sub">Select type of investor you are below.</p>
+          </div>
+
+          <div class="inverstor-type-select">
+              <input
+                type="radio"
+                id="individual"
+                name="investor"
+                value="individual"
+              />
+              <label for="individual">Individual</label>
+
+              <input
+                type="radio"
+                id="Business"
+                name="investor"
+                value="Business"
+              />
+              <label for="Business">Business</label>
+
+              <input
+              type="radio"
+              id="IRA"
+              name="investor"
+              value="IRA" />
+              <label for="IRA">IRA</label>
+
+              <input
+              type="radio"
+              id="Trust"
+              name="investor"
+              value="Trust" />
+              <label for="Trust">Trust</label>
+          </div>
+        </section>
+
+        <section class="agree-to-the-terms">
+          <p>
+            <input type="checkbox" id="agree" />
+            <label for="agree"
+              >I agree to the terms and receiving notifications from iintoo
+              <span class="link" href="#">View full terms</span></label
+            >
+          </p>
+        </section>
+
+        <p class="submit">
+          <button type="submit" class="create-account-button">Create Account</button>
+        </p>
+      </form>
+    </main>
+  </body>
+</html>

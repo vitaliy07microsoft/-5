@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #EFF6FF;
+    margin: 6%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.aside-image {
+    grid-column: 1 / 2;
+    width: 100%;
+    min-height: 553px;
+}
+
+main {
+    grid-column: 2 / 3;
+    background-color: white;
+}
+
+.title-1 {;
+    margin: 15% 0% 0% 10%;
+    color: #7B8A92;
+}
+
+.subtitle-1 {
+    margin: 3% 0% 0% 10%;
+    font-size: 14px;
+    color: #96A5B1;
+}
+
+.social-buttons {
+    margin: 9% 0% 0% 10%;
+}
+
+.facebook-button {
+    color: white;
+    background-color: #255A9B;
+    font-size: 10px;
+    width: 40%;
+    height: 1.8rem;
+    border: none;
+    margin-right: 3%;
+}
+
+#facebook-logo {
+    width: 13px;
+}
+
+.linkedin-button {
+    color: white;
+    background-color: #0076B6;
+    font-size: 10px;
+    width: 40%;
+    height: 1.8rem;
+    border: none;
+    margin-left: 3%;
+}
+
+#linkedin-logo {
+    width: 13px;
+}
+
+.or-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  3rem 20%;
+    gap: 1rem;
+}
+
+.line {
+    flex: 1;
+    width: 50px;
+    height: 1px;
+    background-color: gray;
+}
+
+.on-hr {
+    font-size: 8px;
+}
+
+.personal-info-input {
+    margin-left: 10%;
+}
+
+/* .email-input {
+    width: 40%;
+    height: 2.3rem;
+    font-size: 10px;
+    border: 1.3px solid #EEEEEE;
+    margin-right: 3%;
+}
+
+.email-input:hover {
+    width: 40%;
+    height: 2.3rem;
+    font-size: 10px;
+    border: 1.3px solid #EEEEEE;
+    border-left-color: #3698FB;
+    margin-right: 3%;
+}
+
+.phone-input {
+    width: 40%;
+    height: 2.3rem;
+    font-size: 10px;
+    border: 1.3px solid #EEEEEE;
+    margin-left: 3%
+}
+
+.phone-input:hover {
+    width: 40%;
+    height: 2.3rem;
+    font-size: 10px;
+    border: 1.3px solid #EEEEEE;
+    border-left-color: #3698FB;
+    margin-left: 3%
+} */
+
+.title-2 {
+    margin: 8% 0 0 10%;
+    color: #7B8A92;
+    font-size: 14px;
+}
+
+.subtitle-2 {
+    margin: 2% 0% 0% 10%;
+    font-size: 10px;
+    color: #96A5B1;
+}
+
+.investor-type-select-radio {
+    margin: 5% 0% 0% 10%;
+    font-size: 10px;
+    font-weight: 550;
+}
+
+.individual-info-icon,
+.business-info-icon,
+.ira-info-icon,
+.trust-info-icon {
+    color: grey;
+    margin-right: 4%
+}
+
+.agree-to-the-terms {
+    margin: 8% 0% 0% 10%;
+}
+
+.agree-to-the-terms-text {
+    color: #afafaf;
+    font-size: 12px;
+}
+
+.view-full-terms {
+    color: #36c3fb;
+    text-decoration: underline;
+}
+
+.submit {
+    margin: 6% 0% 0% 10%;
+}
+
+.create-account-button {
+    color: white;
+    border: none;
+    background-color: #3698FB;
+    width: 10rem;
+    height: 1.7rem;
+}
