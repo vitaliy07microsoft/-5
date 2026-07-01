@@ -28,16 +28,22 @@ main {
 }
 
 .subtitle-1 {
-    margin: 3% 0% 0% 10%;
+    margin: 2% 0% 0% 10%;
     font-size: 14px;
     color: #96A5B1;
 }
 
 .social-buttons {
-    margin: 9% 0% 0% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 5% 0% 0% 10%;
 }
 
 .facebook-button {
+    /* dispay: flex;
+    align-items: center;
+    justify-content: center; */
     color: white;
     background-color: #255A9B;
     font-size: 10px;
@@ -52,6 +58,9 @@ main {
 }
 
 .linkedin-button {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
     color: white;
     background-color: #0076B6;
     font-size: 10px;
@@ -69,7 +78,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:  3rem 20%;
+    margin:  2rem 20%;
     gap: 1rem;
 }
 
@@ -88,68 +97,98 @@ main {
     margin-left: 10%;
 }
 
-/* .email-input {
-    width: 40%;
-    height: 2.3rem;
-    font-size: 10px;
-    border: 1.3px solid #EEEEEE;
+.email-phone-input {
+    margin-left: 10%;
+    margin-top: 5%;
+    display: flex;
+}
+
+.email-input-border {
+    display: flex-wrap;
     margin-right: 3%;
-}
-
-.email-input:hover {
+    border: 1.3px solid #EEEEEE;
     width: 40%;
     height: 2.3rem;
-    font-size: 10px;
-    border: 1.3px solid #EEEEEE;
+}
+.email-text {
+    font-size: 12px;
+    margin: 4px 0 0 4px;
+    color: #AFAFAF;
+}
+.email-input-zone {
+    width: 95%;
+    margin-left: 4px;
+    color: #2A4A5C;
+    border: none;
+    outline: none;
+}
+.email-input-border:focus-within {
     border-left-color: #3698FB;
-    margin-right: 3%;
 }
 
-.phone-input {
+.phone-input-border {
+    display: flex-wrap;
+    margin-left: 3%;
+    border: 1.3px solid #EEEEEE;
     width: 40%;
     height: 2.3rem;
-    font-size: 10px;
-    border: 1.3px solid #EEEEEE;
-    margin-left: 3%
 }
-
-.phone-input:hover {
-    width: 40%;
-    height: 2.3rem;
-    font-size: 10px;
-    border: 1.3px solid #EEEEEE;
+.phone-input-border:focus-within {
     border-left-color: #3698FB;
-    margin-left: 3%
-} */
+}
+.phone-text {
+    font-size: 12px;
+    margin: 4px 0 0 4px;
+    color: #AFAFAF;
+}
+.phone-input-zone {
+    width: 95%;
+    margin-left: 4px;
+    color: #2A4A5C;
+    border: none;
+    outline: none;
+}
+.phone-input-border:focus-within {
+    border-left-color: #3698FB;
+}
 
 .title-2 {
-    margin: 8% 0 0 10%;
+    margin: 10% 0 0 10%;
     color: #7B8A92;
-    font-size: 14px;
+    font-size: 19px;
 }
 
 .subtitle-2 {
-    margin: 2% 0% 0% 10%;
-    font-size: 10px;
+    margin: 1% 0% 0% 10%;
+    font-size: 13px;
     color: #96A5B1;
 }
 
-.investor-type-select-radio {
+.investor-type-select-text {
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
     margin: 5% 0% 0% 10%;
+    color: #2A4A5C;
     font-size: 10px;
     font-weight: 550;
+}
+
+.inverstor-type-select-radio {
+    margin-right: 1%;
 }
 
 .individual-info-icon,
 .business-info-icon,
 .ira-info-icon,
 .trust-info-icon {
+    display: inline-flex;
+    margin: 0 12% 0 2%;
     color: grey;
-    margin-right: 4%
 }
 
 .agree-to-the-terms {
-    margin: 8% 0% 0% 10%;
+    margin: 10% 0% 0% 10%;
 }
 
 .agree-to-the-terms-text {
@@ -163,7 +202,7 @@ main {
 }
 
 .submit {
-    margin: 6% 0% 0% 10%;
+    margin: 4% 0% 0% 10%;
 }
 
 .create-account-button {

@@ -14,9 +14,9 @@
     <main>
       <form>
         <section class="main-info">
-            <h3 class="title-1">
+            <h2 class="title-1">
               Get iintoo it today
-            </h3>
+            </h2>
             <div class="subtitle-1">
                 There is no charge or obligation upon registration
             </div>
@@ -31,7 +31,6 @@
             <div class="line"></div>
             <span class="on-hr">OR</span>
             <div class="line"></div>
-            
         </section>
 
         <!-- <section class="personal-info-input">
@@ -39,28 +38,39 @@
             <input type="tel" placeholder="Phone" class="phone-input" required>
         </section> -->
 
-        <selection>s</selection>
+        <selection class="email-phone-input">
+          <div class="email-input-border">
+            <div class="email-text">Email</div>
+            <input type="email" class="email-input-zone">
+          </div>
+          
+          <div class="phone-input-border">
+            <div class="phone-text">Phone</div>
+            <input type="tel" class="phone-input-zone">
+          </div>
+
+        </selection>
 
         <section class="investor-type">
-            <h3 class="title-2">What type of investor are you?</h3>
+            <h2 class="title-2">What type of investor are you?</h2>
             <div class="subtitle-2">select the type of investor you are below.</div>
         </section>
 
-        <section class="investor-type-select">
-          <div class="investor-type-select-radio">
-            <input type="radio" id="individual" name="investor" value="individual" required>
+        <section class="investor-type">
+          <div class="investor-type-select-text">
+            <input type="radio" id="individual" class="inverstor-type-select-radio" name="investor" value="individual" required>
             <label for="individual">Individual</label>
             <span class="individual-info-icon">&#9432;</span>
 
-            <input type="radio" id="business" name="investor" value="business" required>
+            <input type="radio" id="business" class="inverstor-type-select-radio" name="investor" value="business" required>
             <label for="business">Business</label>
             <span class="business-info-icon">&#9432;</span>
 
-            <input type="radio" id="ira" name="investor" value="ira" required>
+            <input type="radio" id="ira" class="inverstor-type-select-radio" name="investor" value="ira" required>
             <label for="ira">IRA</label>
             <span class="ira-info-icon">&#9432;</span>
 
-            <input type="radio" id="trust" name="investor" value="trust" required>
+            <input type="radio" id="trust" class="inverstor-type-select-radio" name="investor" value="trust" required>
             <label for="trust">Trust</label>
             <span class="trust-info-icon">&#9432;</span>
           </div>
