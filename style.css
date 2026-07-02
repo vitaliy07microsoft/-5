@@ -168,7 +168,7 @@ main {
     display: inline-flex;
     align-items: center;
     justify-content: left;
-    margin: 5% 0% 0% 10%;
+    margin: 5% 0% 10% 10%;
     color: #2A4A5C;
     font-size: 10px;
     font-weight: 550;
@@ -187,8 +187,15 @@ main {
     color: grey;
 }
 
+.individual-info-icon:hover::after {
+    content: attr(data-title);
+    left: 0;
+    right: 0;
+    bottom: 5px;
+}
+
 .agree-to-the-terms {
-    margin: 10% 0% 0% 10%;
+    margin: 0% 0% 0% 10%;
 }
 
 .agree-to-the-terms-text {
