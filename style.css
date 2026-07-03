@@ -17,6 +17,13 @@ body {
     min-height: 553px;
 }
 
+.aside-logo {
+    width: 10%;
+    position: absolute;
+    left: 2%;
+    margin: 2% 5%;
+}
+
 main {
     grid-column: 2 / 3;
     background-color: white;
